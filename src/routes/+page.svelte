@@ -96,7 +96,7 @@
         <pre class="bg-black p-4 rounded mb-4 border border-gray-700 text-sm">{`
 import requests
 
-response = requests.post('/exec', 
+response = requests.post('https://exec-urmk.onrender.com/exec', 
     json={
         'code': 'print("Hello, World!")',
         'language': 'python'
@@ -111,7 +111,7 @@ response = requests.post('/exec',
       <div class="bg-gray-800/50 rounded-xl border border-gray-700 p-8">
         <h3 class="text-xl font-bold mb-4">JavaScript Calculator</h3>
         <pre class="bg-black p-4 rounded mb-4 border border-gray-700 text-sm">{`
-fetch('/exec', {
+fetch('https://exec-urmk.onrender.com/exec', {
   method: 'POST',
   headers: {
     'Content-Type': 'application/json'
