@@ -96,7 +96,8 @@
         <pre class="bg-black p-4 rounded mb-4 border border-gray-700 text-sm">{`
 import requests
 
-response = requests.post('https://exec-urmk.onrender.com/exec', 
+response = requests.post(
+    'https://exec-urmk.onrender.com/exec', 
     json={
         'code': 'print("Hello, World!")',
         'language': 'python'
