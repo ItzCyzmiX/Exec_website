@@ -1,5 +1,5 @@
 <script>
-  let js_example = `fetch('/exec', {
+  let js_example = `fetch('https://exec-urmk.onrender.com/exec', {
   method: 'POST',
   headers: {
     'Content-Type': 'application/json'
@@ -12,7 +12,7 @@
 
   let python_example = `import requests
 
-response = requests.post('https://exec.run/exec', json={
+response = requests.post('https://exec-urmk.onrender.com/exec', json={
   'code': 'print("Hello, World!")', 
   'language': 'python'
 })
